@@ -19,7 +19,7 @@ function App() {
 			if (error instanceof Error) {
 				setError(error.message);
 			} else {
-				setError("An unknown error occurred");
+				setError("Ha ocurrido un error");
 			}
 		} finally {
 			setLoading(false);

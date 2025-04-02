@@ -15,6 +15,7 @@ interface Props {
 
 const ImageTemplate = ({ data, onRemove }: Props) => {
 	const handleRemoveImage = () => onRemove(data.id);
+	
 	return (
 		<Card sx={{ width: 400, height: 400, margin: 1 }}>
 			<CardMedia
